@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Profile</title>
+</head>
+<body>
+    <!-- Header Part! -->
+    <header>
+        <nav>
+            <section class="logo">
+                <a href="https://www.revou.co" target="_blank"><img src="images/logo.svg" alt="logo"></a>
+            </section>
+
+            <section class="navbar">
+                <a href="#homepage">Home</a>
+                <a href="#">Our Fasilitator</a>
+                <a href="#">Message Us</a>
+            </section>
+        </nav>
+    </header>
+    <hr>
+    <!-- Content Part -->
+    <main>
+        <!-- Home Page Section -->
+        <section id="homepage">
+            <h4>Hellow <span id="name"></span>,</h4> 
+            <h5>Welcome to the Home Page!</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus earum, omnis dicta explicabo accusamus nulla fuga tempore aspernatur, expedita eaque voluptates obcaecati dolores veniam consectetur sed quae iusto error animi.</p>
+            <div class="imgAutoSlide">
+                <img src="images/image-1.jpg" alt="Image1" class="imgList">
+                <img src="images/image-2.jpg" alt="Image2" class="imgList" style="width: 400px">
+            </div>
+            <script src="js/script.js"></script>
+        </section>
+        <hr>
+
+        <!-- Profile Section -->
+        <section id="fast"> <!-- fasilitator -->
+            <h2>Our Fasilitator</h2>
+            <div class="profile">
+                <p class="firstPofile"></p>
+                <p class="secProfile"></p>
+                <p class="thirdProfile"></p>
+                <p class="fourthProfile"></p>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="message">
+            <h2>Message Us</h2>
+            <form class="message-form">
+                <!-- Name -->
+                <div class="form-input">
+                    <div class="form-input-name">
+                        <label for="name">Name : </label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                </div>
+
+                <!-- Date -->
+                <div class="form-input">
+                    <div class="form-input-birthDate">
+                        <label for="birthDate">Date of Birth : </label>
+                        <input type="date" id="date" name="birthdate">
+                    </div>
+                </div>
+                <!-- Gender -->
+                <div class="form-input">
+                    <div class="form-input-gender">
+                        <label for="gender">Gender : </label>
+                        <input type="radio" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <!-- Message -->
+                <div class="form-input">
+                    <div class="form-input-message">
+                        <label for="Message">Message : </label>
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                
+                <!-- Submit Button -->
+                <div class="button">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+        <hr>
+    </main>
+
+    <!-- Footer Part -->
+    <footer>
+        <p>&copy; Created by Egip</p>
+    </footer>
+</body>
+</html>

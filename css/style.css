@@ -1,0 +1,141 @@
+* {
+    font-family: 'Kanit', 'sans-serif';
+}
+
+/* Header Part */
+header {
+    margin : 5px;
+}
+
+header nav {
+    display : flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo img {
+    margin-top : 12px;
+    margin-left : 27px;
+    width: 50px;
+}
+
+
+.navbar {
+    margin : 20px 30px 0 0;
+}
+.navbar a {
+    float: left; /* space won't be blocked */
+    padding : 0 15px;
+    font-size : 18px;
+    color : #000;
+}
+
+/* To Center an Object
+objectName {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* Main Parts */
+
+/* Home */
+#homepage {
+    width : auto;
+    height : 400px; 
+    margin-top : 200px;
+    margin-left: 50px;
+}
+
+section h4 {
+    font-size: 15px;
+}
+
+section h5 {
+    margin-top : -3px;
+    font-size : 26px;
+}
+
+section p {
+    margin-top : -18px;
+    width : 620px;
+    font-size: 16px;
+}
+
+.imgAutoSlide img {
+    margin-top : -270px;
+    margin-right : 50px;
+    float : right;
+    width : 500px;
+    height: auto;
+}
+
+/* Profile */
+
+
+#fast { /* Fasilitator */
+    width : auto;
+    height : 350px;
+}
+
+#fast .profile {
+    display : flex;
+    justify-content: center;
+    margin-top : -25px;
+}
+
+#fast .profile p {
+    width : 200px;;
+    border-radius: 50%;
+    border: 2px solid black;
+    height : 200px;
+    margin : 50px;
+}
+
+#fast h2 {
+    margin : 20px 0 0 50px;
+}
+
+/* Message */
+
+#message {
+    height : 420px;
+    width: auto;
+}
+
+#message h2 {
+    margin : 20px 0 0 50px;
+}
+
+.message-form {
+    margin : 20px 0 0 70px;
+}
+
+.form-input {
+    padding : 5px 0;
+}
+
+.form-input-message {
+    display : flex;
+}
+
+.form-input-message label {
+    padding : 0 5px 0 0;
+}
+
+.button input {
+    width : 313px;
+    margin-top: 10px;
+
+}
+
+/* Footer  */
+footer p {
+    position: relative;
+    float : right;
+    font-size: 12px;
+}
